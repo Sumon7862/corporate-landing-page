@@ -1,11 +1,12 @@
 import React from 'react'
 import QuoteImg from '../assets/quote-left.png'
 import verify from '../assets/verify.svg'
+import Container from './Container'
 
 const Quote = () => {
     return (
         <>
-            <div className='container mx-auto mb-[130px]'>
+            <Container>
                 <div className='bg-[url(./assets/quoteBG.png)] bg-cover bg-no-repeat w-full'>
                     <div className='py-[50px] pl-[45px]'>
                         <div className='w-[447px] text-center shadow-xl/30 rounded-[16px] bg-white'>
@@ -19,7 +20,7 @@ const Quote = () => {
                     </div>
                     </div>
                 </div>
-            </div>
+            </Container>
         </>
     )
 }

@@ -3,12 +3,13 @@ import { FaArrowRight } from "react-icons/fa6";
 import img1 from '../assets/HomeInsurance.png';
 import img2 from '../assets/LifeInsurance.png';
 import img3 from '../assets/CarInsurance.png';
+import Container from './Container';
 
 
 const Service = () => {
     return (
         <>
-            <div className='container mx-auto'>
+            <Container>
                 <div className='text-center mt-[125px] mx-auto'>
                     <h3 className='font-bold text-[16px] text-[#89D32A] tracking-[2px] mb-[10px]'>OUR SERVICES</h3>
                     <span className='text-gray-500'>--------------------------------</span>
@@ -42,11 +43,9 @@ const Service = () => {
                             <span className='text-[#313131] text-[20px] mb-1 font-semibold'>Learn more</span>  
                             <span><FaArrowRight /></span>
                         </div>
-                    </div>
-                    
-                    
+                    </div>                    
                 </div>
-            </div>
+            </Container>
         </>
     )
 }

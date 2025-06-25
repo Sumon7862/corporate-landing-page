@@ -4,11 +4,12 @@ import pic2 from '../assets/B2.png'
 import pic3 from '../assets/B3.png'
 import pic4 from '../assets/B4.png'
 import pic5 from '../assets/B5.png'
+import Container from './Container'
 
 const Benefits = () => {
     return (
         <>
-            <div className='container mx-auto'>
+            <Container>
                 <div className='text-center mt-[125px] mx-auto'>
                     <h3 className='font-bold text-[16px] text-[#89D32A] tracking-[2px] mb-[10px]'>your benefits</h3>
                     <span className='text-gray-500'>......................................................</span>
@@ -44,7 +45,7 @@ const Benefits = () => {
                         <p className='font-normal text-[#676767] text-[20px] w-[280px] mx-auto leading-[28px] mt-[20px] mb-[20px]'>We’re commited to making applying for insurance as simple as can be for our customers.</p>
                     </div>
                 </div>
-            </div>
+            </Container>
 
         </>
     )
