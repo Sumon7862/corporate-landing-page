@@ -1,11 +1,12 @@
 import './App.css'
-import Banner from './components/Banner'
-import Benefits from './components/Benefits'
-import NavBar from './components/NavBar'
-import Quote from './components/Quote'
-import Service from './components/Service'
-import SimpleSlider from './components/Testimonial'
-
+import Apply from './components/Sections/Apply';
+import Banner from './components/Sections/Banner'
+import Benefits from './components/Sections/Benefits';
+import NavBar from './components/Sections/NavBar'
+import Quote from './components/Sections/Quote';
+import Service from './components/Sections/Service';
+import Testimonial from './components/Sections/Testimonial';
+import Tips from './components/Sections/Tips';
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
       <Service/>
       <Quote/>
       <Benefits/>
-      <SimpleSlider/>
+      <Tips/>
+      <Testimonial/>
+      <Apply/>
     </>
   )
 }

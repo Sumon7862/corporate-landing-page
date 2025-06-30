@@ -1,8 +1,7 @@
 import React from 'react'
-import Button from './Button'
-import BannerImage from '../assets/banner.png'
-import Container from './Container'
-import Flex from './Flex'
+import Button from '../Button'
+import Container from '../Container'
+import Flex from '../Flex'
 
 const Banner = () => {
     return (
@@ -15,7 +14,7 @@ const Banner = () => {
                         <Button>Get a Consultation</Button>
                     </div>
                     <div>
-                        <img src={BannerImage} alt="#" />
+                        <img src="./src/assets/banner.png" alt="#" />
                     </div>
                 </Flex>
             </Container>

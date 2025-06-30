@@ -1,12 +1,11 @@
-import React from 'react'
-import QuoteImg from '../assets/quote-left.png'
-import verify from '../assets/verify.svg'
-import Container from './Container'
+import QuoteImg from '/src/assets/quote-left.png';
+import verify from '/src/assets/verify.svg';
+import Container from '../Container';
 
 const Quote = () => {
     return (
         <>
-            <Container>
+            <Container className='py-32.5'>
                 <div className='bg-[url(./assets/quoteBG.png)] bg-cover bg-no-repeat w-full'>
                     <div className='py-[50px] pl-[45px]'>
                         <div className='w-[447px] text-center shadow-xl/30 rounded-[16px] bg-white'>

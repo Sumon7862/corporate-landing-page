@@ -1,14 +1,13 @@
-import React from 'react'
-import Logo from '../assets/logo.svg'
-import Button from './Button'
-import Container from './Container'
-import Flex from './Flex'
+import Button from '../Button'
+import Container from '../Container'
+import Flex from '../Flex'
+import Logo from '/src/assets/logo.svg'
 
 const NavBar = () => {
     return (
         <>
             <Container>
-                <Flex className='mt-[50px]'>
+                <Flex className='mt-[50px] justify-between'>
                     <div className='flex items-center gap-5'>
                         <img src={Logo} alt="#" />
                         <h1 className='font-bold text-4xl text-[#313131]'>Pacific Corp.</h1>

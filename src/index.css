@@ -11,9 +11,13 @@ li{
 }
 li:hover{
     color: black;
-    font-weight: bold;
+    border-bottom: 2px solid #676767;
 }
 p{
     color: #676767;
     font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    color:#313131;
 }
